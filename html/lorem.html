@@ -4,28 +4,69 @@
   <head>
     <meta charset = "utf-8">
     <title>Lorem News</title>
+    <style>
+      body {
+        font-family: "Segoe UI", sans-serif;
+        padding: 1%
+      }
+      header{
+        background: #e9ecef;
+        text-align: center;
+        padding-top: 0.25%;
+        padding-bottom: 1.5%;
+      }
+      #motto {
+        fornt-style: italic;
+      }
+      main {
+        width: 75%;
+        float: left;
+      }
+      nav {
+        width: 24%;
+        float: right;
+      }
+      main img {
+        float: left;
+        margin: 2%;
+      }
+      nav ul{
+        list-style: none;
+        padding: 0;
+      }
+      nav li{
+        padding: 5%;
+        border: 1px solid #e9ecef;
+      }
+      .article {
+        color: #007bff;
+        text-decoration: none;
+      }
+    </style>
 
   </head>
   <body>
     <header>
       <h1>Lorem news</h1>
-      <span>The real fake news </span>
+      <span id = "motto">The real fake news </span>
     </header>
     <main>
       <article class="">
          <h2> Featured story headline</h2>
          <img src="data:image/jpeg;base64,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">
+         <img src="http://via.placeholder.com/200x200">
          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis malesuada ex. In consectetur, nibh at dictum iaculis, metus elit condimentum erat, quis laoreet nisl augue vehicula ex. Quisque egestas pulvinar sodales. Fusce at eros rutrum, faucibus lacus sed, elementum lectus. Morbi vel venenatis nunc. Pellentesque efficitur mattis risus, et tincidunt ipsum placerat vel. Pellentesque molestie vitae velit nec interdum. Nunc non tristique sapien. Ut rutrum lacus vel eros aliquet viverra vitae a urna. Nullam lacinia tortor felis, et lacinia quam bibendum tristique. Phasellus vel ligula iaculis, vehicula nulla eget, mollis nisl. Phasellus convallis risus id lacus auctor, in euismod mi efficitur. Vestibulum gravida lectus ac odio pellentesque, quis cursus nunc auctor. Ut blandit scelerisque ex, eget volutpat arcu mollis sit amet. Morbi purus massa, posuere vitae turpis sed, accumsan tempor dolor. Suspendisse eleifend commodo sodales.</p>
          <p>Proin posuere ultrices dolor, ut iaculis lectus dignissim non. Praesent mollis ut neque non vestibulum. Aliquam posuere cursus commodo. Maecenas malesuada est non nibh congue, non porttitor nulla porttitor. Mauris viverra lacus lectus, sit amet vestibulum magna tincidunt vitae. Pellentesque sit amet imperdiet orci, quis faucibus urna. Maecenas ac interdum risus, maximus tempor elit. Mauris finibus, urna a sollicitudin sagittis, urna nisl luctus sem, eu posuere augue augue vel erat. Nulla in mauris et sem pretium rhoncus non et risus.</p>
       </article>
-      <nav>
-        <ul>
-          <li>,<a href="#">Quisque a ligula feugiat, fringilla purus vitae, viverra est.</a></li>
-          <li><a href="#">Phasellus at enim at enim elementum aliquet id eu urna.</a></li>
-          <li><a href="#">Curabitur tempor velit vitae venenatis laoreet.</a></li>
-          <li><a href="#">Duis quis massa ac leo varius imperdiet ac vitae massa.</a></li>
-        </ul>
-      </nav>
     </main>
+    <nav>
+      <h2> See also</h2>
+        <ul>
+          <li><a href="#" class = "article"> Quisque a ligula feugiat, fringilla purus vitae, viverra est.</a></li>
+          <li><a href="#" class = "article">this is anonsense string of words</a></li>
+          <li><a href="#" class = "article">Curabitur tempor velit vitae venenatis laoreet.</a></li>
+          <li><a href="#" class = "article">Duis quis massa ac leo varius imperdiet ac vitae massa.</a></li>
+      </ul>
+    </nav>
   </body>
 </html>
