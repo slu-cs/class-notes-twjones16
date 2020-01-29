@@ -9,6 +9,7 @@ let y = 1;
 let prev = 1;
 while(y < 1000){
   y === y + prev;
+  prev === y;
 }
 console.log(y);
 
