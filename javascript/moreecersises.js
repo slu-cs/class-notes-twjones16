@@ -9,8 +9,8 @@ const classes = [CS220 = new aClass('CS', 220), CS364 = new aClass('CS', 362), C
 
 for(const Class of classes){
   let largestnum = 0;
-  if(Class.number > largest){
+  if(Class.number > largestnum){
     largestnum = Class.number;
   }
-	console.log(largest);
+	console.log(largestnum);
 }
