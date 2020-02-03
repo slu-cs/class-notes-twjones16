@@ -7,7 +7,7 @@ const aClass = function(dept, number){
 
 const classes = [CS220 = new aClass('CS', 220), CS364 = new aClass('CS', 362), CS332 = new aClass('CS', 332)];
 
-const largestClassNum = fucntion(Classes){
+const largestClassNum = function(Classes){
   let largestnum = 0;
   for(const Class of Classes){
     if(Class.number > largestnum){
