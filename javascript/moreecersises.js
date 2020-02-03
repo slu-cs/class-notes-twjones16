@@ -28,4 +28,4 @@ const range = function(a,b){
   return nums;
 }
 const result = range(3,7);
-console.log result
+console.log(result);
