@@ -3,7 +3,7 @@
 //function definitions\
 
 const avg = fuction(a,b){
-  retrun (a+b)/2;
+  return (a+b)/2;
 };
 
 //function call
