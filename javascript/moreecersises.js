@@ -23,7 +23,7 @@ largestClassNum(classes);
 const range = function(a,b){
   const nums = [];
   for(let i = a; i < b; i++ ){
-    nums.push[i];
+    nums.push(i);
   }
   console.log(nums);
 }
