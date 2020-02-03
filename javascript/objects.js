@@ -2,5 +2,5 @@
 
 //object literal
 
-const point = {x:a, y:2};
+const point = {x:1, y:2};
 console.log(point)
