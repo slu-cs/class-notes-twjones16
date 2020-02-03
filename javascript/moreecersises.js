@@ -25,7 +25,6 @@ const range = function(a,b){
   for(let i = a; i < b; i++ ){
     nums.push[i];
   }
-  return nums;
+  console.log(nums);
 }
-const result = range(3,7);
-console.log(result);
+range(3,7);
