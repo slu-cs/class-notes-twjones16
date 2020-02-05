@@ -27,5 +27,5 @@ console.log(map(numbers, x=> x+2));
 
 
 //using array map method
-console.log(numbers.map(x => x=> x**2));
-console.log(numbers.map(x => x=> x+2));
+console.log(numbers.map(x=> x**2));
+console.log(numbers.map(x=> x+2));
