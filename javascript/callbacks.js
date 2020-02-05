@@ -15,7 +15,7 @@ const square = function(x){
   return x**2;
 }
 
-cons numbers = [1, 2, 3, 4, 5, 6];
+const numbers = [1, 2, 3, 4, 5, 6];
 
 // do the transformation
 console.log(map(numbers, square));
