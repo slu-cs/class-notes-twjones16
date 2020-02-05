@@ -19,6 +19,8 @@ const largestClassNum = function(Classes){
 
 largestClassNum(classes);
 
+//ecercise 2 
+
 //excersie 3
 const range = function(a,b){
   const nums = [];
