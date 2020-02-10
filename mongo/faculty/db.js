@@ -4,7 +4,6 @@ const mongoose = require('mongoose');
 //explore this funciton
 
 module.exports = function(){
-  
 
 // Avoid warnings
     mongoose.set('useNewUrlParser', true);
