@@ -3,8 +3,8 @@
 const mongoose = require('mongoose');
 
 const Professor = new mongoose.Schema({
-  name: String;,
-  rank: String;,
+  name: String,
+  rank: String,
   started: Number,
   courses: [Number]
 });
